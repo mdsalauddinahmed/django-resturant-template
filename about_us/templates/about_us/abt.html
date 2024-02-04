@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}About Us{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>About Us</h2>
+            <p>
+                At  Mohammad cafe, we believe in the art of gastronomy, where passion meets the plate. Our team of skilled chefs, inspired by diverse culinary traditions, has curated a menu that promises to delight your taste buds. From savory appetizers to delectable main courses and indulgent desserts, each dish is a celebration of flavor, quality, and creativity.
+            </p>
+            <h2>Ambiance</h2>
+            <p>
+                Step into an inviting and stylish ambiance that sets the stage for an unforgettable dining experience. Our thoughtfully designed interior blends modern aesthetics with warm tones, creating an atmosphere that is both contemporary and comfortable. Whether you're here for a romantic dinner, a family celebration, or a casual gathering with friends, [Restaurant Name] offers the perfect backdrop for every occasion.
+            </p>
+            <h2>Visit Us Today</h2>
+            <p>
+                We invite you to join us and be part of the excitement as we embark on this culinary adventure. Gather your loved ones and savor the flavors that define Mohammad Cafe. Our team is dedicated to providing impeccable service, ensuring that every visit is a memorable one.
+            </p>
+            <button class="btn  btn-dark">Order Now</button>
+        </div>
+        <div class="col-md-6 mt-5">
+            <img src="{% static 'images/cheff.jpg' %}" class="img-fluid w-200" alt="Restaurant Image">
+        </div>
+    </div>
+</div>
+{% endblock %}

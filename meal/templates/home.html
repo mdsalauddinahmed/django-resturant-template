@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="jumbotron text-center bg-success text-light">
+    <h1 class="display-4 font-weight-bold ">Welcome to Our Restaurant</h1>
+    <p class="lead">Discover a world of flavors with our exquisite dishes.</p>
+</div>
+
+<div class="container my-5">
+    <div class="row">
+        <div class="col-md-6 mt-5">
+            <h2>Fullfil your extensive wishes</h2>
+            <p>
+                We are thrilled to announce the grand opening of Mohammad Cafe, a culinary haven where flavors come alive and every dish tells a story. Our doors are wide open, welcoming you to an exquisite dining experience that transcends the ordinary.
+            </p>
+            <button class="btn  btn-dark">Order Now</button>
+        </div>
+        <div class="col-md-6 w-100">
+            <img src="{% static 'images/cheff.jpg' %}" class="img-fluid w-200" alt="Restaurant Image">
+        </div>
+    </div>
+</div>
+{% endblock content %}
